@@ -2,9 +2,112 @@
 <html>
 <head>
 	<title>My Profile</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<style type="text/css">
+		#grid
+		{
+			display:grid;
+			grid-template-columns: auto auto;
+			grid-gap: 30px;
+		}
+		.grid_row
+		{
+			display:grid;
+			grid-template-rows: auto auto;
+			grid-gap: 30px;
+			background: purple;
+			padding: 30px;
+			color: white;
+		}
+	</style>
 </head>
-<body>
-	<h1>mahesh pawate</h1>
+<body >
+	<div id="container">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light " style="background-color: #FB8C00; " >
+			<a href="https://drive.google.com/file/d/1qkWWi4Nr8PZQrQ8Ko9CGbiSVnUC6Dqag/view?usp=sharing" class="navbar-brand badge badge badge-pill badge-info">
+			<img src="resources/r.png" height="30px" width="30px"> Resume</a>
+			<a href="#vid" class="navbar-brand badge badge badge-pill badge-info">
+			<img src="resources/self.png" height="30px" width="30px"> Self Iteroduction</a>
+			<a href="#car" class="navbar-brand badge badge badge-pill badge-info">
+			<img src="resources/p.png" height="30px" width="30px"> Project</a>
+			<a href="#" class="navbar-brand badge badge badge-pill badge-info">
+			<img src="resources/c.png" height="30px" width="30px"> Contact me</a>
 
+		</nav>
+	</div>
+
+	<div  class="container grid_row"  style="margin-top: 170px; ">
+		<div>
+			<label style="font-size: 48px"> <u>About me</u> </label>
+		</div>
+		<div id="grid" >
+		 <img src="resources/my.jpg" height="200" width="150">
+		<label class="text-justify">
+							I am Mahesh, I hail from Sangli district from Maharashtra. I completed my BCA in
+							2015 from Sivaji University, Kolhapur and MCA in 2017 from VIT University,
+							Chennai.
+							I did my internship at Makerdemy, Chennai working on basic database handling.
+							Post MCA I joined my family business, Raj Clothing &amp; I was working with around
+							50 wholesalers &amp; retailers to promote our range of shirts.
+							Right from my college days I am interested in building products and pursue a
+							career in web development. I was searching for a job in Bangalore and I came
+							across Masai school, which offers 20 weeks course on full stack web development
+							programme. At Masai school we get hands on experience to learn front end and
+							backend technologies. Currently we are in the 10 th week of this course.
+							About my family, father businessman, mother home maker, 3 elder brothers, 2
+							are engineers and one is a businessman.
+							My hobbies and interest include visiting historic places and like to trek with my
+							friends and during my free time like to read Marathi novels.
+			</label>
+			</div>
+	</div>
+	<!-- project-->
+	<div id="car" class="container" style="margin-top: 350px; height: 100%; width:100%;">
+		<div class="card-group">
+		  <div class="card">
+		    <img class="card-img-top" src="resources/p1.png" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">The Flash</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" src="..." alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">Card title</h5>
+		      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" src="..." alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">Card title</h5>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+		  </div>
+		</div>
+	<div>
+	</div>
+		
+		
+
+
+	</div>
+
+	<div style="margin-top: 350px" class="embed-responsive embed-responsive-16by9">
+		<iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/3-QpvCBuE80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="100%" width="100%"></iframe>
+	</div>
+	<div>
+		<footer>
+			
+		</footer>
+	</div>
+	
 </body>
 </html>
